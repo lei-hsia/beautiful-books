@@ -12,3 +12,14 @@ In other words, Dot-Product (cosine similarity) yields high similarity, then we 
 
 This is exactly what's QKV in the famous paper "Attention is all you need"
 
+#### QKV examples
+![QKV examples](https://github.com/lei-hsia/beautiful-books/blob/master/qkv1.png)
+
+#### How QKV is used in Attention paper
+![How QKV is used in Attention paper](https://github.com/lei-hsia/beautiful-books/blob/master/qkv2.png)
+
+#### How MHA is used and QKV calculations can be parallelized
+![How MHA is used and QKV calculations can be parallelized](https://github.com/lei-hsia/beautiful-books/blob/master/qkv3.png)
+
+
+The reason I reviewed these params is that this is the foundation how they are used and accelerated via KV Cache in [vLLM](https://github.com/vllm-project/vllm)
