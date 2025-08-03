@@ -6,7 +6,7 @@ ways to implement:
     - Leaky Bucket
     - Token Bucket
     - Fix Window Counter
-    - Sliding Window Log:
+    - Sliding Window Log: ([LC359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/description/))
         - fine-grained traffic control, no window boundary issue; more complex
     - Sliding Window Counter
 - OOD: 
